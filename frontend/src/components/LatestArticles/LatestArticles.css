@@ -1,0 +1,38 @@
+.latest-articles-container {
+    flex: 1;
+    margin-left: 20px; /* Spacing between columns */
+  }
+  
+  .latest-articles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(6, auto); /* Six rows, adjust height as needed */
+    gap: 10px; /* Adjust the gap between items as needed */
+  }
+  
+  
+  .latest-article {
+    display: flex;
+    margin-bottom: 10px; /* Spacing between articles */
+  }
+  
+  .latest-article .article-image {
+    width: 100px; /* Adjust to match the design */
+    height: auto;
+    margin-right: 10px; /* Spacing between image and text */
+  }
+  
+  .article-info {
+    flex-grow: 1;
+  }
+  
+  .article-title {
+    font-size: 1rem; /* Adjust as needed */
+    margin: 0;
+  }
+  
+  .article-meta {
+    font-size: 0.8rem;
+    color: #ccc; /* Adjust as needed */
+  }
+  

@@ -1,0 +1,78 @@
+.banner {
+    background-color: #FF6F61; /* Adjust the color to match the actual banner color */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    font-weight: bold;
+    color: white;
+    /* Add additional styling to match the Ticketmaster logo */
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    /* Add additional styling for the menu items */
+  }
+  .search-bar {
+    display: flex;
+    width: 500px;
+    /* border: 1px solid blue; */
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; /* Added margin for spacing */
+  }
+  
+  .search-bar input {
+    flex-grow: 1; /* Ensures that the input field grows to fill the space */
+    width: 50%; /* Adjust as needed or use max-width for better control */
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ddd; /* Subtle border, you can adjust the color */
+    border-radius: 25px 0 0 25px; /* Rounded left corners */
+    outline: none; /* Removes the outline on focus */
+  }
+  
+  .search-bar button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #ff6f61; /* Stylish coral red color for the button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0; /* Rounded right corners */
+  }
+  
+  /* Optional: Adjust the width of the input field on smaller screens */
+  @media (max-width: 768px) {
+    .search-bar input {
+      width: 70%; /* Larger percentage for smaller screens */
+    }
+  }
+  
+  .user-actions button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .user-actions button:hover{
+    border: 2px solid coral;
+    font-weight: 299;
+  }
+  

@@ -1,0 +1,25 @@
+.latest-article {
+    display: flex;
+    margin-bottom: 10px; /* Spacing between articles */
+  }
+  
+  .latest-article .article-image {
+    width: 200px; /* Adjust to match the design */
+    height: 200px;
+    margin-right: 10px; /* Spacing between image and text */
+  }
+  
+  .article-info {
+    flex-grow: 1;
+  }
+  
+  .article-title {
+    font-size: 1rem; /* Adjust as needed */
+    margin: 0;
+  }
+  
+  .article-meta {
+    font-size: 0.8rem;
+    color: #ccc; /* Adjust as needed */
+  }
+  

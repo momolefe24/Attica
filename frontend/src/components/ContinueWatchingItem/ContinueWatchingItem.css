@@ -1,0 +1,105 @@
+.continue-watching-item {
+    position: relative;
+    transition: transform 0.3s ease; /* Smooth transition for the hover effect */
+    /* margin-right: 20px; */
+    color: black;
+    cursor: pointer;
+    width:400px;
+  }
+  .circle-plus {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    width: 20px; /* Size of the circle */
+    height: 20px; /* Size of the circle */
+    background-color: #fff; /* Initial color of the circle */
+    border-radius: 50%; /* Makes the div round */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease; /* Animation for color change */
+    cursor: pointer;
+    font-family: Arial, sans-serif; /* Ensures consistent font */
+    font-size: 22px; /* Adjust the size of the plus icon if necessary */
+    line-height: 30px; /* Aligns the text height with the circle's height */
+    text-align: center; /* Ensures the text is centered */
+  }
+  
+  /* Plus icon inside the circle */
+  .circle-plus::before {
+    content: '+';
+    display: block; /* Ensures the plus sign is treated as a block-level element */
+    color: #000; /* Initial color of the plus */
+    transition: color 0.3s ease; /* Animation for color change */
+  }
+  
+  .circle-plus:hover {
+    background-color: #0000ff; /* Change to blue on hover */
+  }
+  
+  .circle-plus:hover::before {
+    color: #fff; /* Change color to white on hover */
+  }
+  
+  /* This will slightly move the item up when hovered */
+.continue-watching-item:hover {
+    transform: translateY(-5px); /* Adjust the value as needed */
+  }
+  
+  .thumbnail {
+    width: 100%; /* Adjust as needed */
+    height:350px;
+    display: block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .play-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .time-left {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    /* background: rgba(0, 0, 0, 0.7); */
+    padding: 5px;
+  }
+  
+  .info {
+    background-color: #333; /* Background color for the text area */
+    padding: 10px;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .title {
+    display: block;
+  }
+  
+  .season-episode {
+    display: block;
+  }
+  
+  .audio-options {
+    display: block;
+  }
+  .title, .season-episode, .audio-options {
+    display: block;
+    overflow: hidden; /* Prevents text overflow */
+    white-space: nowrap; /* Keeps the text in a single line */
+    text-overflow: ellipsis; /* Adds an ellipsis to overflowing text */
+  }

@@ -1,0 +1,15 @@
+.continue-watching-list {
+    overflow-x: auto;
+    padding: 20px;
+    /* background-color: #000; */
+  }
+  
+  .items-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  h2 {
+    color: black;
+  }
+  

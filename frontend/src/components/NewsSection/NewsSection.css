@@ -1,0 +1,107 @@
+.news-section {
+    background: #333; /* Use the correct color from your design */
+    color: white;
+    padding: 20px;
+  }
+  
+  .news-section h2 {
+    /* Add styles for the main title */
+    color: white;
+  }
+  
+  .news-section h3 {
+    /* Add styles for the subheading */
+  }
+  
+  .news-articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the space between articles as needed */
+  }
+  
+  .news-article {
+    width: 200px; /* Adjust width as needed */
+    margin-bottom: 20px;
+  }
+  
+  .news-article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Adjust or remove as needed */
+  }
+  
+  .article-info {
+    /* Style for the text block of each article */
+  }
+  
+  .article-info h4 {
+    font-size: 1rem; /* Adjust the font size as needed */
+  }
+  
+  .article-meta {
+    font-size: 0.8rem; /* Adjust the font size as needed */
+    color: #ccc; /* Adjust the color as needed */
+  }
+  
+  
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-all-button {
+  /* Style your 'VIEW ALL' button here */
+}
+
+.news-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* border: 2px solid blue; */
+}
+.top-news-section{
+  margin-left: 40px;
+}
+
+.top-news-section,
+.latest-news-section {
+  flex: 1;
+}
+
+.top-news-section h3,
+.latest-news-section h3 {
+  /* Subheading styles */
+}
+
+.news-article {
+  margin-bottom: 20px;
+  width: 300px;
+
+}
+
+.top-news .article-image {
+  width: 100%;
+  /* height: auto; */
+}
+
+.latest-news .article-image {
+  width: 100px; /* Adjust based on design */
+  /* height: auto; */
+}
+
+.article-info {
+  /* Style for the text block of each article */
+  padding:5px;
+}
+
+.article-title {
+  font-size: 1rem; /* Adjust the font size as needed */
+}
+
+.article-meta {
+  font-size: 0.8rem; /* Adjust the font size as needed */
+  color: #ccc;
+}
+
+  /* Add additional styles and media queries for responsiveness */
+  
